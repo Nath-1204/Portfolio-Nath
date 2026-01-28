@@ -83,7 +83,7 @@ export const workData = [
         bgImage: '/work-1.png',
     },
     {
-        title: 'Site Food',
+        title: 'Potatoes',
         description: 'Restaurant food',
         bgImage: '/work-2.png',
     },
@@ -98,7 +98,7 @@ export const workData = [
         bgImage: '/work-4.png',
     },
     {
-        title: 'E-commerce',
+        title: 'Forever',
         description: 'Boutique en ligne ',
         bgImage: '/work-5.png',
     },
@@ -106,6 +106,16 @@ export const workData = [
         title: 'QuickChat',
         description: 'Messenger web',
         bgImage: '/work-6.png',
+    },
+    {
+        title: 'Agency',
+        description: 'Website frontend',
+        bgImage: '/work-7.png',
+    },
+    {
+        title: 'QuickGPT',
+        description: 'Clone ChatGPT with MERN',
+        bgImage: '/work-8.png',
     },
 ]
 
