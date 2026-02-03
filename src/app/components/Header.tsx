@@ -5,7 +5,7 @@ import { assets } from '@/assets/assets'
 function Header() {
 
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-1'>
+    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
         <div>
             <Image src={assets.profile_img} alt='' className='w-32 rounded-full'/>
         </div>
@@ -25,11 +25,17 @@ function Header() {
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
 
-            <a href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 '>
+            <a 
+                href="#contact" 
+                className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
+            >
                 Contactez-moi
                 <Image src={assets.right_arrow_white} alt='' className='w-4'/>
             </a>
-            <a href="/resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white'>
+            <a 
+                href="/resume.pdf" 
+                className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'
+            >
                 Mon CV
                 <Image src={assets.download_icon} alt='' className='w-4'/>
             </a>

@@ -21,17 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body
+    <html lang="en" className="scroll-smooth dark">
+      <body 
         className={`${outfit.className} ${ovo.className} 
-        antialiased leading-8 overflow-x-hidden `}
+        antialiased leading-8 overflow-x-hidden dark:bg-darkTheme
+        dark:text-white`}
       >
         {children}
       </body>
     </html>
   );
 }
-
-/* className={`${outfit.className} ${ovo.className} 
-        antialiased leading-8 overflow-x-hidden dark:bg-darkTheme
-        dark:text-white`} */
