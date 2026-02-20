@@ -39,7 +39,7 @@ const Work = ({ isDarkMode }) => {
         <h4 className='text-center mb-2 text-lg font-Ovo'>Mes Compétences</h4>
         <h2 className='text-center text-5xl font-Ovo'>Mon Projet</h2>
 
-        <div className='grid grid-cols-1 sm:grid-cols-4 my-10 gap-5 dark:text-black'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-5 dark:text-black'>
             {
                 seeMore ? worksData : worksData.slice(0, 4)
             }
