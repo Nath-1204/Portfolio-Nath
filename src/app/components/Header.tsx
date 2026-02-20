@@ -2,10 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 
+
 function Header() {
 
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-2 '>
         <div>
             <Image src={assets.profile_img} alt='' className='w-32 rounded-full'/>
         </div>
@@ -15,8 +16,8 @@ function Header() {
             <Image src={assets.hand_icon} alt='' className='w-6 '/>
         </h3>
 
-        <h2 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Developpeur Web Frontend basée à Antananarivo.
+        <h2 className='text-3xl sm:text-6xl lg:text-[60px] font-Ovo'>
+            Apprentie Developpeuse Web | ReactJS | ExpressJS.
         </h2>
 
         <p className="max-w-2xl mx-auto font-Ovo">

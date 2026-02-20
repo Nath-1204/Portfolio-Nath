@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { assets, infoList, toolsData } from '@/assets/assets'
 
+
 const About = ({ isDarkMode }) => {
 
   return (
@@ -15,7 +16,10 @@ const About = ({ isDarkMode }) => {
             <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
         </div>
         <div className="flex-1 ">
-            <p className='mb-10 max-w-2xl font-Ovo'>Je suis une apprentie en Developpement Frontend. Et je suis à la recherche d'une alternance d'un rythme deux semaines à l'école et trois semaines en entreprise afin que je puisse mettre à profit mes connaissances et acquérir les savoirs pratiques nécessaires à l'obtention future de mon diplôme.  </p>
+            <p className='mb-10 max-w-2xl font-Ovo'>
+              Je suis une apprentie en Developpement Web Javascript. Et je suis à la recherche d'une opportunité qui me permettrai 
+              d'évoluer et mettre en pratiques mes compétences.  
+            </p>
 
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
 

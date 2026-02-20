@@ -78,9 +78,14 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'E-commerce',
-        description: 'FullstackJS',
-        bgImage: '/work-1.png',
+        title: 'QuickGPT',
+        description: 'Clone ChatGPT with MERN',
+        bgImage: '/work-8.png',
+    },
+    {
+        title: 'Forever',
+        description: 'Boutique en ligne ',
+        bgImage: '/work-5.png',
     },
     {
         title: 'Potatoes',
@@ -88,19 +93,14 @@ export const workData = [
         bgImage: '/work-2.png',
     },
     {
-        title: 'Frontend project',
-        description: 'Home site',
-        bgImage: '/work-3.png',
-    },
-    {
         title: 'Doctor Site',
         description: 'Doctor Appointments',
         bgImage: '/work-4.png',
     },
     {
-        title: 'Forever',
-        description: 'Boutique en ligne ',
-        bgImage: '/work-5.png',
+        title: 'Frontend project',
+        description: 'Home site',
+        bgImage: '/work-3.png',
     },
     {
         title: 'QuickChat',
@@ -113,23 +113,17 @@ export const workData = [
         bgImage: '/work-7.png',
     },
     {
-        title: 'QuickGPT',
-        description: 'Clone ChatGPT with MERN',
-        bgImage: '/work-8.png',
+        title: 'E-commerce',
+        description: 'FullstackJS',
+        bgImage: '/work-1.png',
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Javascript, HTML, CSS, TailwindCSS, ReactJS, NodeJS, Express' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Ecole Supérieur des Technologies de l\'Information (ESTI) Antanimena' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: 'Plus de 4 projets' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: `Plus de ${workData.length} projets` }
 ];
 
 export const toolsData = [
