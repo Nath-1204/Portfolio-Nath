@@ -61,7 +61,7 @@ const Contact = () => {
                 />
             </div>
             <textarea 
-                rows='6' 
+                rows={6}
                 placeholder='Ecrivez votre message' 
                 name='message' 
                 className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90' 
