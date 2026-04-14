@@ -6,7 +6,7 @@ const Contact = () => {
 
     const [result, setResult] = useState("");
 
-    const onSubmit = async(event) => {
+    const onSubmit = async(event: any) => {
 
         event.preventDefault();
         setResult("Envoie...")
