@@ -4,6 +4,7 @@ import { assets, infoList, toolsData } from '@/assets/assets'
 
 
 const About = () => {
+  
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (

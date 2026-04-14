@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 
 
-const Footer = ({ isDarkMode }) => {
+const Footer = () => {
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
     <div>
