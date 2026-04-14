@@ -7,14 +7,18 @@ const Navbar = () => {
 
     const [isScroll, setIsScroll] = useState(false)
     const [isDarkMode, setIsDarkMode] = useState(false);
-    const sideMenuRef = useRef();
+    const sideMenuRef = useRef<HTMLDivElement | null>(null);
 
     const openMenu = () => {
-        sideMenuRef.current.style.transform = 'translateX(-16rem)'
+        if(sideMenuRef.current) {
+            sideMenuRef.current.style.transform = 'translateX(-16rem)'
+        }
     }
 
     const closeMenu = () => {
-        sideMenuRef.current.style.transform = 'translateX(16rem)'
+        if(sideMenuRef.current) {
+            sideMenuRef.current.style.transform = 'translateX(16rem)'
+        }
     }
 
     useEffect(()=>{
