@@ -3,9 +3,10 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 
-const Work = ({ isDarkMode }) => {
+const Work = () => {
 
     const [seeMore, setSeeMore] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
     const worksData = workData.map((project, index)=>(
 
