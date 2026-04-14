@@ -7,7 +7,7 @@ const Navbar = () => {
 
     const [isScroll, setIsScroll] = useState(false)
     const [isDarkMode, setIsDarkMode] = useState(false);
-    const sideMenuRef = useRef<HTMLDivElement | null>(null);
+    const sideMenuRef = useRef<HTMLUListElement | null>(null);
 
     const openMenu = () => {
         if(sideMenuRef.current) {
