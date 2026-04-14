@@ -11,7 +11,7 @@ const Work = ({ isDarkMode }) => {
 
         <div 
             key={index} 
-            className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group border border-zinc-400 dark:border-white' 
+            className='aspect-square h-full w-full bg-no-repeat bg-contain bg-center rounded-lg relative cursor-pointer group border border-zinc-400 dark:border-white' 
             style={{backgroundImage: `url(${project.bgImage})`}}
         >
             <div 
