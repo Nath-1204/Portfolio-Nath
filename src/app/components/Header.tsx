@@ -17,12 +17,12 @@ function Header() {
         </h3>
 
         <h2 className='text-3xl sm:text-6xl lg:text-[60px] font-Ovo'>
-            Apprentie Developpeuse Web | ReactJS | ExpressJS.
+            Etudiante en Informatique || Développement Web & nouvelles technologies.
         </h2>
 
-        <p className="max-w-2xl mx-auto font-Ovo">
+       {/*  <p className="max-w-2xl mx-auto font-Ovo">
             Actuellement étudiante en Trosième année de Licence en Intégration et Développement Web.
-        </p>
+        </p> */}
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
 

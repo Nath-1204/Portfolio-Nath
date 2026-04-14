@@ -15,10 +15,16 @@ const About = ({ isDarkMode }) => {
         <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
             <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
         </div>
+
         <div className="flex-1 ">
             <p className='mb-10 max-w-2xl font-Ovo'>
-              Je suis une apprentie en Developpement Web Javascript. Et je suis à la recherche d'une opportunité qui me permettrai 
-              d'évoluer et mettre en pratiques mes compétences.  
+              Etudiante en L3 en Développement Web, je suis à la recherche d'une opportunité pour mettre en pratique mes compétences et apprendre davantange dans un environnement professionnel.
+              <br />
+              <strong>Mon parcours: </strong>J'ai découvert le développement web il y a quelques années et j'ai décidé de me spécialiser dans ce domaine. J'ai acquis des compétences en HTML, CSS et Javascript grâce à mes études et mes projets personnels.
+              <br />
+              <strong>Ce que je veux apprendre: </strong>Je souhaite approfondir mes connaissances en développement web, notamment en matière de conception de sites web responsives et d'application web.
+              <br />
+              Je suis motivée pour apprendre et progresser dans une entreprise où je puisse contribuer à l'évolution d'un site vitrine et développer une réelle expertise en développement web.
             </p>
 
             <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
