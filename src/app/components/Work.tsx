@@ -12,7 +12,7 @@ const Work = () => {
 
         <div 
             key={index} 
-            className='aspect-square h-full w-full bg-no-repeat bg-contain bg-center rounded-lg relative cursor-pointer group border border-zinc-400 dark:border-white' 
+            className='aspect-square h-full w-full bg-no-repeat bg-contain bg-center rounded-lg relative group border border-zinc-400 dark:border-white' 
             style={{backgroundImage: `url(${project.bgImage})`}}
         >
             <div 
@@ -27,7 +27,9 @@ const Work = () => {
                     className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
                     shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
                 >
-                    <Image src={assets.send_icon} alt='send icon ' className='w-3'/>
+                    <a href={project.url}>
+                        <Image src={assets.send_icon} alt='send icon ' className='w-3 cursor-pointer'/>
+                    </a>
                 </div>
             </div>
                     

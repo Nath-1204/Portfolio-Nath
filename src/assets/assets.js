@@ -78,44 +78,64 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'HMS',
+        description: 'Hopital Management System',
+        bgImage: '/hms.png',
+        url: `https://hospital-management-system-hms-app.vercel.app/login`
+    },
+    {
+        title: 'Notes App',
+        description: 'Note-taking application',
+        bgImage: '/notesapp.png',
+        url: `https://noteskeep-application-26.vercel.app/login`
+    },
+    {
         title: 'QuickGPT',
         description: 'Clone ChatGPT with MERN',
-        bgImage: '/work-8.png',
-    },
-    {
-        title: 'Forever',
-        description: 'Boutique en ligne ',
-        bgImage: '/work-5.png',
-    },
-    {
-        title: 'Potatoes',
-        description: 'Restaurant food',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Doctor Site',
-        description: 'Doctor Appointments',
-        bgImage: '/work-4.png',
-    },
-    {
-        title: 'Frontend project',
-        description: 'Home site',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'QuickChat',
-        description: 'Messenger web',
-        bgImage: '/work-6.png',
+        bgImage: '/QuickGpt.png',
+        url: `https://botgpt-project.vercel.app`
     },
     {
         title: 'Agency',
         description: 'Website frontend',
         bgImage: '/work-7.png',
+        url: `https://vite-app-19.vercel.app`
+    },
+    {
+        title: 'QuickChat',
+        description: 'Messenger web',
+        bgImage: '/work-6.png',
+        url: `https://chat-z7vn.vercel.app/login`
+    },
+    {
+        title: 'Forever',
+        description: 'Boutique en ligne ',
+        bgImage: '/work-5.png',
+        url: `https://github.com/Nath-1204/Forever`
+    },
+    {
+        title: 'Potatoes',
+        description: 'Restaurant food',
+        bgImage: '/work-2.png',
+        url: `https://github.com/Nath-1204/Food`
+    },
+    {
+        title: 'Doctor Site',
+        description: 'Doctor Appointments',
+        bgImage: '/work-4.png',
+        url: `https://github.com/Nath-1204/Prescripto`
+    },
+    {
+        title: 'Frontend project',
+        description: 'Home site',
+        bgImage: '/work-3.png',
+        url: `https://github.com/Nath-1204`
     },
     {
         title: 'E-commerce',
         description: 'FullstackJS',
         bgImage: '/work-1.png',
+        url: `https://github.com/Nath-1204/E-commerce`
     },
 ]
 

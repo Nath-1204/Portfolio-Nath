@@ -13,12 +13,12 @@ const About = () => {
       <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
       <h2 className='text-center text-5xl font-Ovo'>A propos de moi</h2>
 
-      <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+      <div className='flex w-full flex-col lg:flex-row gap-20 my-20'>
         <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-            <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
+          <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
         </div>
 
-        <div className="flex-1 ">
+        <div className="flex-1 items-center">
             <p className='mb-10 max-w-2xl font-Ovo'>
               Etudiante en L3 en Développement Web, je suis à la recherche d'une opportunité pour mettre en pratique mes compétences et apprendre davantange dans un environnement professionnel.
               <br />
